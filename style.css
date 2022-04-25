@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    background-image: url("./img/aurora.jpg");
+    background-size: contain;
+}
+
+.container-logo {
+
+}
+
+.container-left p {
+    margin-top: auto;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    border: 1px solid blue;
+}
+
+.container-right-top {
+
+}
+
+.container-right-mid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-form {
+    display: flex;
+    border: 1px solid green;
+}
+
+.container-right-bot {
+
+}
